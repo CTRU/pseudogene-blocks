@@ -1,0 +1,12 @@
+# program to identify pseudo gene blocks in a genome
+# 
+# 
+#
+# Kim Brugger (27 Apr 2015), contact: kbr@brugger.dk
+
+
+1) create reads for regions of interest (make_reads.pl)
+2) map back to reference (bwa-mem)
+3) identify blocks ( pseudo_gene_blocks.py )
+4) block distance analysis ( block_distances.pl)
+
